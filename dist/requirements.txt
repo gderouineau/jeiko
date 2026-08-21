@@ -3,6 +3,10 @@ cachetools==7.1.7
 certifi==2026.7.22
 cffi==2.1.1
 charset-normalizer==3.5.0
+# Minification du CSS à collectstatic (cf. jeiko/staticfiles.py). Pur Python,
+# sans dépendance : il remplace les fichiers .min.css écrits à la main, qui
+# avaient pris jusqu'à onze mois de retard sur leurs sources.
+csscompressor==0.9.5
 cryptography==50.0.0
 Django==5.2.17
 django-allauth==65.19.1
