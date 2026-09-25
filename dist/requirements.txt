@@ -7,6 +7,8 @@ charset-normalizer==3.5.0
 # sans dépendance : il remplace les fichiers .min.css écrits à la main, qui
 # avaient pris jusqu'à onze mois de retard sur leurs sources.
 csscompressor==0.9.5
+# Analyse du CSS global du site, avant bornage au contenu (E-08).
+tinycss2>=1.2,<2
 cryptography==50.0.0
 Django==5.2.17
 django-allauth==65.19.1
