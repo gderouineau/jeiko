@@ -20,6 +20,8 @@ django-allauth==65.19.1
 fido2==2.2.1
 qrcode==8.2
 django-fernet-encrypted-fields==0.4.0
+# NEWS-01 : SPF, DKIM et DMARC du domaine d'envoi des newsletters.
+dnspython==2.8.0
 google-api-core==2.34.0
 google-api-python-client==2.198.0
 google-auth==2.56.3
