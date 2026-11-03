@@ -61,7 +61,10 @@ urllib3==2.7.0
 weasyprint==70.0
 brotli==1.2.0
 cssselect2==0.10.1
-fonttools==4.66.1
+# fonttools 4.66 exige Python 3.11 ; Ubuntu 22.04 est en 3.10 (DIST-01) :
+# là, la dernière qui l'accepte — WeasyPrint demande 4.59.2 au moins.
+fonttools==4.66.1; python_version >= "3.11"
+fonttools==4.65.0; python_version < "3.11"
 pydyf==0.12.1
 pyphen==0.18.1
 tinyhtml5==2.1.0
