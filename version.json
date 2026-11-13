@@ -1,9 +1,9 @@
 {
-  "version": "3.13.8",
-  "wheel": "jeiko-3.13.8-py3-none-any.whl",
-  "sha256": "e8b5d3a7a2110e368a19eb04ced4b18a7d3d4a96a0d688f0ca5859b3acb81217",
+  "version": "3.13.9",
+  "wheel": "jeiko-3.13.9-py3-none-any.whl",
+  "sha256": "32299ffd1c3cdaecfea0e97a0a8d93b674d636e9f95e936b95cf27dade45d451",
   "requirements": "dist/requirements.txt",
   "requirements_sha256": "e762403fe04bd25844ad4a572b81e4351a0f0046c100454aea527f2b5d67d306",
-  "released_at": "2026-11-13T17:13:04Z",
+  "released_at": "2026-11-13T17:23:11Z",
   "min_python": "3.10"
 }
