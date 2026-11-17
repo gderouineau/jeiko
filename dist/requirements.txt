@@ -29,6 +29,8 @@ google-auth-httplib2==0.4.1
 google-auth-oauthlib==1.4.0
 googleapis-common-protos==1.75.1
 gunicorn==26.0.0
+# Jours fériés par pays et région, pour fermer les créneaux de l'agenda.
+holidays==0.105
 httplib2==0.32.0
 idna==3.18
 nh3>=0.2,<1
